@@ -167,7 +167,7 @@ const TopSection = ({ mint, totalSupply, price, account, loadWeb3 }) => {
 
               <p>
                 Total Viral Goats Sold{" "}
-                <span className="linebreak">{totalSupply}/10,000</span>
+                <span className="linebreak">{totalSupply}/7777</span>
               </p>
               <br />
               <br />
