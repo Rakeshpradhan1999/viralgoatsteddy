@@ -5,16 +5,16 @@ import "./home.css";
 
 toast.configure();
 
-const Home = ({ account, mint, totalSupply, displayPrice, loadWeb3 }) => {  
+const Home = ({ account, mint, totalSupply, displayPrice, loadWeb3 }) => {
   return (
-    <div style={{backgroundColor: '#602748'}}>      
+    <div>
       <TopSection
         mint={mint}
         totalSupply={totalSupply}
-        price={displayPrice}        
+        price={displayPrice}
         account={account}
         loadWeb3={loadWeb3}
-      />      
+      />
     </div>
   );
 };

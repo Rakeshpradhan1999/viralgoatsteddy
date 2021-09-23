@@ -122,7 +122,7 @@ const TopSection = ({ mint, totalSupply, price, account, loadWeb3 }) => {
               </div>
 
               <p className="slider-below-text">
-                Buy {value} Psycho Teddy{" "}
+                Buy {value} Viral Goats{" "}
                 <span className="big-font">
                   {(value * price).toFixed(4)} Ether
                 </span>
@@ -146,7 +146,7 @@ const TopSection = ({ mint, totalSupply, price, account, loadWeb3 }) => {
                   }
                   disabled={!account ? true : false}
                 >
-                  {totalSupply === 2000 ? "All Sold" : "Buy Psycho Teddy"}
+                  {totalSupply === 2000 ? "All Sold" : "Buy Viral Goats"}
                 </Button>
                 <br />
                 <span
@@ -166,7 +166,7 @@ const TopSection = ({ mint, totalSupply, price, account, loadWeb3 }) => {
               </div>
 
               <p>
-                Total Psycho Teddy Sold{" "}
+                Total Viral Goats Sold{" "}
                 <span className="linebreak">{totalSupply}/10,000</span>
               </p>
               <br />
