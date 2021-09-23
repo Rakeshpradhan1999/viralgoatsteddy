@@ -227,7 +227,7 @@ const App = () => {
         open={nftMinted}
         onClose={setNftMinted}
         title="Mint Successful"
-        text="NFT minted successfully! It will be revealed sooner..."
+        text="Thank you for the purchase. Your NFT will be available on OpenSea shortly"
       />
       <InformationModal
         open={nftMinting}
